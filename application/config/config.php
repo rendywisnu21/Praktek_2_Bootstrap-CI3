@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */ 
 // Base URL ini berfungsi untuk menentukan alamat atau URL yang akan digunakan oleh web.
 // Saat web kalian sudah jadi, maka ubahlah alamat ini ke nama domain yang kalian buat.
-$config['base_url'] = 'http://localhost/Praktek2_E41181766/';
+$config['base_url'] = 'http://localhost/Praktek_2_Bootstrap-CI3/';
 
 /*
 |--------------------------------------------------------------------------
