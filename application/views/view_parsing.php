@@ -1,5 +1,7 @@
 <!-- File ini berisi code html untuk menampilkan sebuah tampilan web -->
 <!-- File ini akan dikontrol atau dibuka oleh file controller yang bernama belajar.php -->
+<!-- Kita dapat mengaksesnya ke http://localhost/Praktek_2_Bootstrap-CI3/index.php/belajar/parsing -->
+
 <!DOCTYPE html>
 <html>
 <head>

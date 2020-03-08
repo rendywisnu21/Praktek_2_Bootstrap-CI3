@@ -22,3 +22,7 @@ CodeIgniter.
 
 6. model, file ini berfungsi untuk semua pengolahan database dalam CodeIgniter.
 
+7. helper, file ini berfungsi untuk membantu pengembang membangun aplikasi secara lebih cepat dan efisien. 
+Setiap helper bisa terdiri dari beberapa fungsi, dimana setiap fungsi dari helper melakukan satu pekerjaan 
+yang spesifik tanpa ada ketergantungan terhadap fungsi yang lain.
+

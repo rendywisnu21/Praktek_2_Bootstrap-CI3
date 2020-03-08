@@ -3,6 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
 // File ini merupakan file yang berfungsi membuka halaman welcome_message.php yang ada pada folder views.
+	
 	/**
 	 * Index Page for this controller.
 	 *
@@ -18,6 +19,14 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+// Code dibawah berfungsi untuk mengaktifkan helper html CI3 dengan cara memanggilnya langsung
+// lewat controller ini. Jangan lupa mengisi helper di autoload menjadi html.
+	function __construct(){
+		parent::__construct();
+		$this->load->helper('html');
+	}
+// Batas
 	public function index()
 	{
 		$this->load->view('welcome_message');

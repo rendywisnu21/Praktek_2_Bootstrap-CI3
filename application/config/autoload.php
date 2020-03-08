@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('database');
 
 /*
 | -------------------------------------------------------------------
@@ -91,7 +91,7 @@ $autoload['drivers'] = array();
 */ 
 // Fungsi helper URL yaitu untuk membantu kita mengakses url/alamat web kita, 
 // menggunakan base_url(), site_url(),$this->url,dll.
-$autoload['helper'] = array('url');
+$autoload['helper'] = array('url', 'html');
 
 /*
 | -------------------------------------------------------------------
