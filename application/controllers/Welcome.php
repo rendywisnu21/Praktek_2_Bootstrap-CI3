@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
-
+// File ini merupakan file yang berfungsi membuka halaman welcome_message.php yang ada pada folder views.
 	/**
 	 * Index Page for this controller.
 	 *

@@ -1,4 +1,5 @@
-                                        Dokumentasi
+    Dokumentasi
+    
 File ini berisi dokumentasi tentang pengertian komponen-komponen yang ada di dalam CodeIgniter.
 Bertujuan untuk memenuhi nilai praktek 2 workshop web framework.
 
